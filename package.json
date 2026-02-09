@@ -1,0 +1,21 @@
+{
+  "name": "playwright_apitesting_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echpo 'No dev script specified'",
+    "mock:start": "node mock-server.js",
+    "test": "npx playwright test",
+    "test:mock": "echo 'Start mock server in another terminal with `npm run mock:start` then run `npm test`'",
+    "test:mock-run": "node scripts/run-mock-tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.0"
+  }
+}

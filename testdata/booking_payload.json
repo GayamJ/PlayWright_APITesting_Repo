@@ -1,0 +1,11 @@
+{
+    "firstname" : "James",
+    "lastname" : "Brown PlayWright",
+    "totalprice" : 2500,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2026-05-26",
+        "checkout" : "2026-05-30"
+    },
+    "additionalneeds" : "Breakfast"
+}
