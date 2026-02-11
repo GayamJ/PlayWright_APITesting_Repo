@@ -1,11 +1,11 @@
 
 # Playwright
 node_modules/
-#test-results/
-#playwright-report/
+test-results/
+playwright-report/
 blob-report/
 /playwright/.cache/
 /playwright/.auth/
-#allresults.json/
-# test-results.json/
-#allure-reports
+allresults.json/
+test-results.json/
+allure-reports
