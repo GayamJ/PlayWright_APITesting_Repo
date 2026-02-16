@@ -1,0 +1,14 @@
+{
+  "bookingid": 413,
+  "booking": {
+    "firstname": "John",
+    "lastname": "Doe",
+    "totalprice": 500,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2001-04-01",
+      "checkout": "2001-05-01"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
