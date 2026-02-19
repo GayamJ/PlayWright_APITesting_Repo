@@ -50,3 +50,6 @@ jobs:
     # Tests run automatically on pushes and pull requests
     # Allure report is generated after execution
     # Allure report is uploaded as an artifact for later download and analysis
+    - name: CDeploy Allure report to Netlify    
+      if: ${{ always() }}      
+      run: npx netlify deploy --dir=allure-report --prod --message="Allure report deployed from GitHub Actions"
